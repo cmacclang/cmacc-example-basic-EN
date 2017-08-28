@@ -1,0 +1,17 @@
+// Who are the parties to this agreement
+
+$ party1 = "...please enter Party 1 name..."
+
+$ party2 = "...please enter Party 2 name..."
+
+This Agreement is made by and between the parties.
+
+By and Betweeen:
+
+{{party1}}
+
+and,
+
+{{party2}}
+
+Each a "party" and collectively the "parties."

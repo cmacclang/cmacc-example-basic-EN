@@ -1,0 +1,18 @@
+// Parameters
+
+$ xnum_Part1 = "Section 1"
+
+// External files
+
+$ section1 = [./Part1.cmacc]
+$ section1.xnum = xnum_Part1
+
+$ section2 = [./Part2.cmacc]
+
+// Document
+
+{{section1}}
+
+Section 2
+
+{{section2}}

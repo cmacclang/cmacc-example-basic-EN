@@ -1,0 +1,29 @@
+// Deal points
+
+$ party1 = "Party1"
+
+$ party2 = "Party2"
+
+$ agreement_Objectives = "Objectives"
+
+$ agreement_Duration = "Duration"
+
+// External files
+
+$ intro = [./Who.cmacc]
+$ intro.party1 = party1
+$ intro.party2 = party2
+
+$ what = [./What.cmacc]
+$ what.agreement_Objectives = agreement_Objectives
+
+$ limits = [./Limits.cmacc]
+$ limits.agreement_Duration = agreement_Duration
+
+// Document
+
+{{intro}}
+
+{{what}}
+
+{{limits}}

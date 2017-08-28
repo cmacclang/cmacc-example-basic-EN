@@ -1,0 +1,15 @@
+// Deal points
+
+$ name = "Pierre"
+
+$ city = "London"
+
+// External files
+
+$ demo_Template = [./DemoTemplate.cmacc]
+$ demo_Template.name = name
+$ demo_Template.city = city
+
+// Document
+
+{{demo_Template}}

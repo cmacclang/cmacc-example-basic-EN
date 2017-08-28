@@ -1,0 +1,36 @@
+// Deal points
+
+$ party1 = "Party1"
+
+$ party2 = "Party2"
+
+$ agreement_Objectives = "Objectives"
+
+$ agreement_Duration = "Duration"
+
+// External files
+
+$ intro = [./Who.cmacc]
+$ intro.party1 = party1
+$ intro.party2 = party2
+
+$ xnum_What = "Section 1"
+$ what = [./WhatWithSectionNumber.cmacc]
+$ what.xnum = xnum_What
+$ what.agreement_Objectives = agreement_Objectives
+
+$ xnum_Limits = "Section 2"
+$ limits = [./LimitsWithSectionNumber.cmacc]
+$ limits.xnum = xnum_Limits
+$ limits.xnum_What_Section = xnum_What
+$ limits.agreement_Duration = agreement_Duration
+
+// Document
+
+## Agreement
+
+{{intro}}
+
+{{what}}
+
+{{limits}}

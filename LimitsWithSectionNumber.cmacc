@@ -1,0 +1,13 @@
+// Parameters
+
+$ xnum = "Section xnum"
+
+$ xnum_What_Section = "Section What Number"
+
+$ agreement_Duration = "...please enter a duration for the agreement (including time unit)..."
+
+// Document
+
+### {{xnum}}
+
+This agreement is for the work as described in {{xnum_What_Section}} and for a duration of {{agreement_Duration}}.

@@ -1,0 +1,5 @@
+// Limits to the agreement - in this example duration
+
+$ agreement_Duration = "...please enter a duration for the agreement (including time unit)..."
+
+This agreement is for a duration of {{agreement_Duration}}.

@@ -1,0 +1,7 @@
+// Name
+$ name = "...enter name..."
+
+// City
+$ city = "...enter city..."
+
+My name is {{name}} and I live in {{city}}
