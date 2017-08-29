@@ -1,0 +1,9 @@
+// Parameters
+
+$ agreement_Objectives = "...enter the goal for this agreement..."
+
+// Document
+
+### Section {{#section 'x'}}
+
+The Parties intend collaborate on {{agreement_Objectives}}.

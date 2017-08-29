@@ -1,0 +1,11 @@
+// Parameters
+
+$ reference_What = "...section What reference..."
+
+$ agreement_Duration = "...please enter a duration for the agreement (including time unit)..."
+
+// Document
+
+### Section {{#section 'x'}}
+
+This agreement is for the work as described in section {{#reference reference_What}} and for a duration of {{agreement_Duration}}.

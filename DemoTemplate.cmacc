@@ -1,7 +1,5 @@
-// Name
-$ name = "...enter name..."
+$ name = "Boris"
 
-// City
-$ city = "...enter city..."
+$ city = "Amsterdam"
 
 My name is {{name}} and I live in {{city}}

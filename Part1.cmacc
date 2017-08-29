@@ -1,5 +1,3 @@
-$ xnum = "...please enter the section number..."
-
-{{xnum}}
+Section {{#section 'x'}}
 
 This is part 1

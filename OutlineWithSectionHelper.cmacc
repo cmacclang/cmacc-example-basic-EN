@@ -14,15 +14,11 @@ $ intro = [./Who.cmacc]
 $ intro.party1 = party1
 $ intro.party2 = party2
 
-$ xnum_What = "Section 1"
-$ what = [./WhatWithSectionNumber.cmacc]
-$ what.xnum = xnum_What
+$ what = [./WhatWithSectionHelper.cmacc]
 $ what.agreement_Objectives = agreement_Objectives
 
-$ xnum_Limits = "Section 2"
-$ limits = [./LimitsWithSectionNumber.cmacc]
-$ limits.xnum = xnum_Limits
-$ limits.xnum_What_Section = xnum_What
+$ limits = [./LimitsWithSectionHelper.cmacc]
+$ limits.reference_What = what
 $ limits.agreement_Duration = agreement_Duration
 
 // Document
