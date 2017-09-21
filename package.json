@@ -1,0 +1,25 @@
+{
+  "name": "cmacc-example-basic-EN",
+  "version": "2.0.0",
+  "description": "Simple use cases for Cmacc - in English",
+  "main": "index.js",
+  "repository": "https://github.com/cmacclang/cmacc-example-basic-EN.git",
+  "author": "Marc Dangeard <marc@dangeard.com>",
+  "license": "MIT",
+  "flat": true,
+  "devDependencies": {
+    "cmacc-cucumber": "1.0.2"
+  },
+  "scripts": {
+    "test": "cmacc-cucumber"
+  },
+  "resolutions": {
+    "kind-of": "4.0.0",
+    "is-number": "3.0.0",
+    "argparse": "1.0.9",
+    "caseless": "0.12.0",
+    "boom": "5.2.0",
+    "colors": "1.1.2",
+    "d": "1.0.0"
+  }
+}
